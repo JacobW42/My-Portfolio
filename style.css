@@ -5,7 +5,7 @@ html {
 
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
+}
 
 /* Navigation Bar */
 
@@ -87,7 +87,9 @@ h2 {
 }
 
 /* About Me */
-
+#about-me {
+  padding-bottom: 100px;
+}
 .about-me {
   display: flex;
   align-items: center;
@@ -176,8 +178,7 @@ div.highway-slider {
 	100% { transform:translateX(calc(-18rem * 6));  }
 }
 #infinite div.highway-barrier {
-	background:#fff;
-	box-shadow:0 3px 10px -3px rgba(0,0,0,0.3);
+
 	&::before,
 	&::after {
 		content: " ";
@@ -206,8 +207,15 @@ div.highway-slider {
 	}
 }
 
+#Skills {
+  padding-bottom: 100px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
 .skill {
-	border: 1px solid gray;
+	background-color: #fff;
+  border: 1px solid gray;
 	display: block;
 	border-radius: 6px;
 	text-align: center;
@@ -229,6 +237,7 @@ div.highway-slider {
 .projects-container {
   margin-top: 30px;
   margin-left: 60px;
+  margin-bottom: 100px;
 }
 
 .projects-container hr {
