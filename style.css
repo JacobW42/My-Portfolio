@@ -236,29 +236,62 @@ div.highway-slider {
 
 .projects-container {
   margin-top: 30px;
-  margin-left: 60px;
   margin-bottom: 100px;
 }
 
 .projects-container hr {
   border: 1px solid lightgray;
-  width: 75%;
-  margin-left: 5cm;
+  width: 85%;
 }
 
 .project-card {
   margin: 0 15px 15px 30px;
   padding-bottom: 5px;
+  padding-right: 5rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .project-card h3 {
   font-size: 25px;
-  margin-left: 30px;
+  margin-left: 30%;
 }
 
 .project-card li {
   font-size: 20px;
-  margin-left: 30px;
+  margin-left: 42%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.checkButton {
+  background-color: rgb(66, 151, 232);
+  color: white;
+  display: block;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 65px;
+  margin-left: 30%;
+  padding: 10px;
+  width: 2in;
+  font-size: 20px;
+}
+
+.checkButton:hover {
+  background-color: white;
+  color: rgb(66, 151, 232);
+  border: solid 0.5px rgb(66, 151, 232);
+  display: block;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.projImg {
+  width: 40rem;
+  height: 26rem;
+  margin: 2rem;
+  margin-right: 4rem;
 }
 
 /* Recommendations */
