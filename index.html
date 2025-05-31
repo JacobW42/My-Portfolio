@@ -23,9 +23,9 @@
         </div>
         </div>
         <div class="topdiv">
-          <a class="topmenu" href="#about-me">About Me</a>
           <a class="topmenu" href="#Skills">Skills</a>
           <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#certificates">Certificates</a>
           <a class="topmenu" href="#recommendations">Recommendations</a>
         </div>
       </div>    
@@ -34,12 +34,12 @@
     <!-- About Me -->
     <section id="about-me" class="container">
       <div>
-        <img src="html_finalprojimages/aboutMe.gif"/>
+        <img class="profile_image" src="html_finalprojimages/aboutMe.png"/>
       </div>
 
       <div id="aboutMe_info">
           <h1>
-            Hi, I'm Jacob Welsh! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+            Hi, I'm Jacob Welsh!
           </h1>
           <p>
             I am an aspirring full stack developer eager for more experiance.
@@ -150,47 +150,183 @@
       <div style="clear:both;"></div>
 
         <div id="projects-container" class="projects-container">
-          <div class="project-card">
-              <ul class="projectList">
-                <h3>DevSync</h3>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <div class="checkButton">Check it out</div>
-              </ul>
-              <div>
-                <img class="projImg" src="html_finalprojimages/IMG_8367.jpg"/>
+          <div id="testimonial-section">
+            <p class="arrow-button left-arrow">&lt;</p>
+            <div class="testimonial-slider">
+              <div class="testimonial active">
+                <div class="project-card">
+                  <ul class="projectList">
+                    <h3>Weather App</h3>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <p class="projInfo">This app detects your location and gives you the current weather report for your area.</p>
+                    <a class="checkButton" href="https://jacobw42.github.io/Weather-App/" target="_blank">Check It Out</a>
+                  </ul>
+                  <div>
+                    <img class="projImg" src="html_finalprojimages/weatherImg.png"/>
+                  </div>
+                </div>
               </div>
-          </div>
-          <hr>
-          <div class="project-card">
-            <ul class="projectList">
-              <h3>DevSync</h3>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <div class="checkButton">Check it out</div>
-            </ul>
-            <div>
-              <img class="projImg" src="html_finalprojimages/IMG_8367.jpg"/>
+              <div class="testimonial">
+                <div class="project-card">
+                  <ul class="projectList">
+                    <h3>DevSync</h3>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <p class="projInfo">This sentiment anayzer is designed to determin the mood of any written piece of infomation.</p>
+                    <div class="checkButton">Check It Out</div>
+                  </ul>
+                  <div>
+                    <img class="projImg" src="html_finalprojimages/IMG_8367.jpg"/>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial">
+                <div class="project-card">
+                  <ul class="projectList">
+                    <h3>DevSync</h3>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <p class="projInfo">This sentiment anayzer is designed to determin the mood of any written piece of infomation.</p>
+                    <div class="checkButton">Check It Out</div>
+                  </ul>
+                  <div>
+                    <img class="projImg" src="html_finalprojimages/IMG_8367.jpg"/>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <hr>
-          <div class="project-card">
-            <ul class="projectList">
-              <h3>DevSync</h3>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <div class="checkButton">Check it out</div>
-            </ul>
-            <div>
-              <img class="projImg" src="html_finalprojimages/IMG_8367.jpg"/>
+            <p class="arrow-button right-arrow">&gt;</p>
+            <div class="testimonial-nav">
+              <span class="nav-dot active" data-slide="0"></span>
+              <span class="nav-dot" data-slide="1"></span>
+              <span class="nav-dot" data-slide="2"></span>
             </div>
           </div>
         </div>
     </section>
     <div style="clear:both;"></div>
+
+    <!-- Certificates -->
+
+   <section id="certificates">
+      <h2>Certificates</h2>
+      <div class="certificates-grid collapse-container">
+
+      <!-- Always visible certificates -->
+
+          <div class="certificate-card">
+            <img src="html_finalprojimages/Certificate 1.jpg" alt="IBM Full Stack Software Developer Certificate" onclick="openLightbox(this)">
+            <div class="certificate-info">
+              <h3>IBM Full Stack Software Developer</h3>
+              <p>IBM Skills Network · Coursera</p>
+            </div>
+          </div>
+
+          <div class="certificate-card">
+            <img src="html_finalprojimages/Certificate 2.jpg" alt="Python for Data Science Certificate" onclick="openLightbox(this)">
+            <div class="certificate-info">
+              <h3>Python for Data Science</h3>
+              <p>IBM Skills Network · Coursera</p>
+            </div>
+          </div>
+
+          <div class="certificate-card">
+            <img src="html_finalprojimages/Certificate 3.jpg" alt="Google IT Automation Certificate" onclick="openLightbox(this)">
+            <div class="certificate-info">
+              <h3>Google IT Automation with Python</h3>
+              <p>IBM Skills Network · Coursera</p>
+            </div>
+          </div>
+
+          <div class="certificate-card">
+            <img src="html_finalprojimages/Certificate 4.jpg" alt="Google IT Automation Certificate" onclick="openLightbox(this)">
+            <div class="certificate-info">
+              <h3>Google IT Automation with Python</h3>
+              <p>IBM Skills Network · Coursera</p>
+            </div>
+          </div>
+
+          <div class="certificate-card">
+            <img src="html_finalprojimages/Certificate 5.jpg" alt="Google IT Automation Certificate" onclick="openLightbox(this)">
+            <div class="certificate-info">
+              <h3>Google IT Automation with Python</h3>
+              <p>IBM Skills Network · Coursera</p>
+            </div>
+          </div>
+
+          <div class="certificate-card">
+            <img src="html_finalprojimages/Certificate 6.jpg" alt="Google IT Automation Certificate" onclick="openLightbox(this)">
+            <div class="certificate-info">
+              <h3>Google IT Automation with Python</h3>
+              <p>IBM Skills Network · Coursera</p>
+            </div>
+          </div>
+
+      <!-- Hidden certificates -->
+
+        <div class="collapse-wrapper">
+          <div class="collapse-extra">
+            <div class="certificate-card">
+              <img src="html_finalprojimages/Certificate 7.jpg" alt="IBM Full Stack Software Developer Certificate" onclick="openLightbox(this)">
+              <div class="certificate-info">
+                <h3>IBM Full Stack Software Developer</h3>
+                <p>IBM Skills Network · Coursera</p>
+              </div>
+            </div>
+
+            <div class="certificate-card">
+              <img src="html_finalprojimages/Certificate 8.jpg" alt="Python for Data Science Certificate" onclick="openLightbox(this)">
+              <div class="certificate-info">
+                <h3>Python for Data Science</h3>
+                <p>IBM Skills Network · Coursera</p>
+              </div>
+            </div>
+
+            <div class="certificate-card">
+              <img src="html_finalprojimages/Certificate 3.jpg" alt="Google IT Automation Certificate" onclick="openLightbox(this)">
+              <div class="certificate-info">
+                <h3>Google IT Automation with Python</h3>
+                <p>IBM Skills Network · Coursera</p>
+              </div>
+            </div>
+
+            <div class="certificate-card">
+              <img src="html_finalprojimages/Certificate 4.jpg" alt="Google IT Automation Certificate" onclick="openLightbox(this)">
+              <div class="certificate-info">
+                <h3>Google IT Automation with Python</h3>
+                <p>IBM Skills Network · Coursera</p>
+              </div>
+            </div>
+
+            <div class="certificate-card">
+              <img src="html_finalprojimages/Certificate 5.jpg" alt="Google IT Automation Certificate" onclick="openLightbox(this)">
+              <div class="certificate-info">
+                <h3>Google IT Automation with Python</h3>
+                <p>IBM Skills Network · Coursera</p>
+              </div>
+            </div>
+
+            <div class="certificate-card">
+              <img src="html_finalprojimages/Certificate 6.jpg" alt="Google IT Automation Certificate" onclick="openLightbox(this)">
+              <div class="certificate-info">
+                <h3>Google IT Automation with Python</h3>
+                <p>IBM Skills Network · Coursera</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button id="toggleCertsBtn" onclick="toggleCertificates()">View All Certificates</button>
+
+    <!-- Lightbox Modal -->
+      <div id="lightbox" onclick="closeLightbox()">
+        <img id="lightbox-img" src="" alt="Certificate preview">
+      </div>
+    </section>
 
     <!-- Recommendations -->
     <section id="recommendations">
